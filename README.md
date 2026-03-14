@@ -1,2 +1,2 @@
-# Latihan-C++
+# Latihan_C++
 
