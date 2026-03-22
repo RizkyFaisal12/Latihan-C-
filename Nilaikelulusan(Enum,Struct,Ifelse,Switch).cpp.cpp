@@ -22,10 +22,10 @@ nilai siswa;
 cout << "Masukkan jumlah nilai Tugas yang diperoleh = ";
 cin >> siswa.Tugas;
 
-cout << "Masukkan jumlah nilai UTS yang diperoleh = ";
+cout << "Masukkan jumlah nilai UTS yang diperoleh   = ";
 cin >> siswa.UTS;
 
-cout <<"Masukkan jumlah nilai UAS yang diperoleh = ";
+cout <<"Masukkan jumlah nilai UAS yang diperoleh   = ";
 cin >> siswa.UAS;
 
 siswa.perhitungannilai();
@@ -46,39 +46,39 @@ if (siswa.Nilaitotaldesimal>=0&&siswa.Nilaitotaldesimal<=40){
 }
 
 if ((siswa.Tugas>=0&&siswa.Tugas<100)&&(siswa.UTS>=0&&siswa.UTS<100)&&(siswa.UAS>=0&&siswa.UAS<100)){
-    cout << "\nNilai kamu = "<< siswa.Nilaitotaldesimal << "\n";  
+    cout << "\nNilai kamu      = "<< siswa.Nilaitotaldesimal << "\n";  
   
     switch(Nilaitotal){
      case 0:
-     cout << "Indeks Nilai = E\n";
+     cout << "Indeks Nilai    = E\n";
      break;
     
      case 1:
-     cout << "Indeks Nilai = D\n";
+     cout << "Indeks Nilai    = D\n";
      break;
 
      case 2:
-     cout << "Indeks Nilai = C\n";
+     cout << "Indeks Nilai    = C\n";
      break;
     
      case 3:
-     cout << "Indeks Nilai = B\n";
-     break;
+     cout << "Indeks Nilai    = B\n";
+     break; 
     
      case 4:
-     cout << "Indeks Nilai = A\n";
+     cout << "Indeks Nilai    = A\n";
      break;
     
      default :
      break;
     }
-    cout << "IPK kamu adalah = "<< Nilaitotal <<"\n";
+    cout << "IP kamu adalah  = "<< Nilaitotal <<"\n";
 
 
     if (Nilaitotal >0 &&Nilaitotal<5){
-        cout << "Status = Siswa Lulus";
+        cout << "Status          = Siswa Lulus";
     }else {
-        cout << "Status = Siswa Tidak Lulus";
+        cout << "Status          = Siswa Tidak Lulus";
     }
 
 } else {
